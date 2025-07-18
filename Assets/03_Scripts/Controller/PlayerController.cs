@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour
         if(Input.GetMouseButtonDown(0))
         {
             //플레이어 포지션 변경
-            Debug.Log("playerPositionY"+ playerPosY);
+            //Debug.Log("playerPositionY"+ playerPosY);
             playerPosY = -playerPosY;     // Y 위치를 반전
             transform.position = new Vector3(transform.position.x, playerPosY, transform.position.z);
         }
